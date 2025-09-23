@@ -7,7 +7,7 @@ import speaker from "../img/speaker-filled-audio-tool.png"
 
 export default function Apresentacao () {
     return (
-       <div className="bg-[#2B2436] px-8 py-30 rounded-2xl">
+       <div className="bg-gradient-to-r from-purple-600 to-blue-600 px-8 py-30">
             <section className="grid grid-cols-2 gap-20 lg:gap-50 font-bold text-white ">
                 {/* Col-span faz com que ocupe 2 colunas */}
                 <div className="col-span-2 flex justify-center items-center"> 

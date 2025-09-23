@@ -17,9 +17,9 @@ export default function Apresentacao () {
                 <div className="flex items-center text-sm md:text-lg lg:text-4xl lg:px-10 lg:ml-50">
                   Músicas infinitas de todos os gêneros
                 </div>
-                <img src={wave} alt="OndaSonora" className="w-20 lg:w-40 mx-auto lg:mx-0 lg:ml-50" />
+                <img src={wave} alt="OndaSonora" className="w-14 lg:w-40 mx-auto lg:mx-0 lg:ml-50" />
 
-                <img src={exchange} alt="OndaSonora" className="w-20 lg:w-40 mx-auto lg:mx-0 lg:ml-100" />
+                <img src={exchange} alt="OndaSonora" className="w-14 lg:w-40 mx-auto lg:mx-0 lg:ml-100" />
                 <div className="flex items-center text-sm md:text-lg lg:text-4xl lg:px-10 text-right lg:mr-50">
                   Acesse em qualquer dispositivo
                 </div>
@@ -27,9 +27,9 @@ export default function Apresentacao () {
                 <div className="flex items-center text-sm md:text-lg lg:text-4xl lg:px-10 lg:ml-50">
                   Playlists personalizadas
                 </div>
-                <img src={playlist} alt="OndaSonora" className="w-20 lg:w-40 mx-auto lg:mx-0 lg:ml-50" />
+                <img src={playlist} alt="OndaSonora" className="w-14 lg:w-40 mx-auto lg:mx-0 lg:ml-50" />
 
-                <img src={offline} alt="OndaSonora" className="w-20 lg:w-40 mx-auto lg:mx-0 lg:ml-100" />
+                <img src={offline} alt="OndaSonora" className="w-14 lg:w-40 mx-auto lg:mx-0 lg:ml-100" />
                 <div className="flex items-center text-sm md:text-lg lg:text-4xl lg:px-10 text-right lg:mr-50">
                   Ouça suas músicas favoritas offline
                 </div>
@@ -37,10 +37,10 @@ export default function Apresentacao () {
                 <div className="flex items-center text-sm md:text-lg lg:text-4xl lg:px-10 lg:ml-50">
                   Compartilhe playlists
                 </div>
-                <img src={share} alt="OndaSonora" className="w-20 lg:w-40 mx-auto lg:mx-0 lg:ml-50" />
+                <img src={share} alt="OndaSonora" className="w-14 lg:w-40 mx-auto lg:mx-0 lg:ml-50" />
 
 
-                <img src={speaker} alt="OndaSonora" className="w-20 lg:w-40 mx-auto lg:mx-0 lg:ml-100" />
+                <img src={speaker} alt="OndaSonora" className="w-14 lg:w-40 mx-auto lg:mx-0 lg:ml-100" />
                 <div className="flex items-center text-sm md:text-lg lg:text-4xl lg:px-10 text-right lg:mr-50">
                   Qualidade de som premium
                 </div>

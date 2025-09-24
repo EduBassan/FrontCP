@@ -1,7 +1,7 @@
 export default function NavBar () {
     return (
-        <div>
-            <h1 className="bg-red-500">Hello World</h1>
+        <div className="bg-[#111111]"> 
+            <h1 className="bg-[#111111]">Hello World</h1>
         </div>
     )
 }

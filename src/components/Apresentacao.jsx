@@ -1,25 +1,29 @@
-import wave from "../img/wave-sound.png"
-import exchange from "../img/world-wide-web.png"
-import playlist from "../img/add-to-playlist.png"
-import offline from "../img/no-wifi.png"
-import share from "../img/share.png"
-import speaker from "../img/speaker-filled-audio-tool.png"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {faInfinity} from "@fortawesome/free-solid-svg-icons";
+import {faGlobe} from "@fortawesome/free-solid-svg-icons";
+import {faMusic} from "@fortawesome/free-solid-svg-icons";
 
+<FontAwesomeIcon icon={faVolumeHigh} />
+ 
 export default function Apresentacao () {
     return (
-       <div className="px-8 py-30">
-            <section className="grid grid-cols-2 gap-20 lg:gap-50 font-bold text-white ">
+       <div className="px-8 py-20">
+            <section className="grid grid-cols-2 gap-20 lg:gap-30 font-bold text-white ">
                 {/* Col-span faz com que ocupe 2 colunas */}
                 <div className="col-span-2 flex justify-center items-center"> 
-                  <h1 className="text-2xl md:text-5xl lg:text-6xl">PRINCIPAIS BENEFÍCIOS</h1>
+                  <h1 className="text-3xl lg:text-5xl">PRINCIPAIS BENEFÍCIOS</h1>
                 </div>
 
                 <div className="flex items-center text-sm md:text-lg lg:text-4xl lg:px-10 lg:ml-50">
                   Músicas infinitas de todos os gêneros
                 </div>
-                <img src={wave} alt="OndaSonora" className="w-20 lg:w-20 mx-auto lg:mx-0 lg:ml-50" />
+                <div className="text-[60px] sm:text-[60px] lg:text-[160px] mx-auto lg:mx-0 xl:ml-50">
+                    <FontAwesomeIcon icon={faInfinity} style={{color: "#ffffff",}} /> 
+                </div>
 
-                <img src={exchange} alt="OndaSonora" className="w-20 lg:w-40 mx-auto lg:mx-0 lg:ml-100" />
+                <div className="text-[60px] sm:text-[60px] lg:text-[160px] mx-auto lg:mx-0 lg:ml-100">
+                    <FontAwesomeIcon icon={faGlobe} />
+                </div>
                 <div className="flex items-center text-sm md:text-lg lg:text-4xl lg:px-10 text-right lg:mr-50">
                   Acesse em qualquer dispositivo
                 </div>
@@ -27,22 +31,8 @@ export default function Apresentacao () {
                 <div className="flex items-center text-sm md:text-lg lg:text-4xl lg:px-10 lg:ml-50">
                   Playlists personalizadas
                 </div>
-                <img src={playlist} alt="OndaSonora" className="w-20 lg:w-40 mx-auto lg:mx-0 lg:ml-50" />
-
-                <img src={offline} alt="OndaSonora" className="w-20 lg:w-40 mx-auto lg:mx-0 lg:ml-100" />
-                <div className="flex items-center text-sm md:text-lg lg:text-4xl lg:px-10 text-right lg:mr-50">
-                  Ouça suas músicas favoritas offline
-                </div>
-
-                <div className="flex items-center text-sm md:text-lg lg:text-4xl lg:px-10 lg:ml-50">
-                  Compartilhe playlists
-                </div>
-                <img src={share} alt="OndaSonora" className="w-20 lg:w-40 mx-auto lg:mx-0 lg:ml-50" />
-
-
-                <img src={speaker} alt="OndaSonora" className="w-20 lg:w-40 mx-auto lg:mx-0 lg:ml-100" />
-                <div className="flex items-center text-sm md:text-lg lg:text-4xl lg:px-10 text-right lg:mr-50">
-                  Qualidade de som premium
+                <div className="text-[60px] sm:text-[60px] lg:text-[160px] mx-auto lg:mx-0 xl:ml-50">
+                    <FontAwesomeIcon icon={faMusic} style={{color: "#ffffff",}} /> 
                 </div>
 
             </section>

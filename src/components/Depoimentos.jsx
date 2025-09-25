@@ -14,7 +14,7 @@ import modeloCinza from "../img/modelo_cinza.PNG";
 export default function Depoimentos() {
   const testimonials = [
     { img: modeloRoxo, name: "Marcelo Azevedo", text: "Semprei procurei por um aplicativo prático" },
-    { img: modeloCinza, name: "Carla Lima", text: "Nota 10! Recomendo para todos" },
+    { img: modeloCinza, name: "Sarah Aguiar", text: "Nota 10! Recomendo para todos" },
     { img: modeloAzul, name: "Arthur Macedo", text: "Minha playlist personalizada é a melhor!" },
     { img: modeloBranco, name: "Carla Lima", text: "Adorei o design, combina com meu estilo" }
   ];

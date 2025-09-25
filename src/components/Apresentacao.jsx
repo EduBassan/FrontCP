@@ -2,6 +2,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {faInfinity} from "@fortawesome/free-solid-svg-icons";
 import {faGlobe} from "@fortawesome/free-solid-svg-icons";
 import {faMusic} from "@fortawesome/free-solid-svg-icons";
+import {faVolumeHigh} from "@fortawesome/free-solid-svg-icons";
 
 <FontAwesomeIcon icon={faVolumeHigh} />
  
@@ -11,7 +12,7 @@ export default function Apresentacao () {
             <section className="grid grid-cols-2 gap-20 lg:gap-30 font-bold text-white ">
                 {/* Col-span faz com que ocupe 2 colunas */}
                 <div className="col-span-2 flex justify-center items-center"> 
-                  <h1 className="text-3xl lg:text-5xl">PRINCIPAIS BENEFÍCIOS</h1>
+                  <h1 className="text-3xl md:text-5xl lg:text-5xl">PRINCIPAIS BENEFÍCIOS</h1>
                 </div>
 
                 <div className="flex items-center text-sm md:text-lg lg:text-4xl lg:px-10 lg:ml-50">

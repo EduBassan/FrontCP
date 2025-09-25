@@ -4,7 +4,7 @@ import { faUser , faEnvelope, faComment} from "@fortawesome/free-solid-svg-icons
 export default function Forms () {
     return (
         <div className="bg-[#111111] pr-5 pl-5 pt-5  w-[100%] flex justify-center items-start h-300 lg:h-auto">
-            <div className="transition-all ease-in-out duration-500 hover:scale-105 flex flex-col pt-10 items-center bg-gradient-to-b lg:bg-gradient-to-r from-[#190dc5] to-[#4f34c9]  rounded-lg h-150 w-74 sm:w-150 sm:h-160  text-white">
+            <div className="transition-all ease-in-out duration-500 hover:scale-105 flex flex-col pt-10 items-center bg-gradient-to-b lg:bg-gradient-to-r from-[#190dc5] to-[#4f34c9]  rounded-lg h-150 w-74 sm:w-150 sm:h-160 lg:w-200 lg:h-200 text-white">
                 <div>
                     <h1 className="font-bold text-3xl pb-1">Entre em contato</h1>
                 </div>
@@ -12,27 +12,23 @@ export default function Forms () {
                     <form>
                     <div>
                         <div className="relative w-full">
-                            <input type="text" id="nome" name="nome" className="mt-2 mb-10 w-60 h-7 rounded-sm placeholder:text-white placeholder:ml-2: border-b-2 border-white focus:outline-none transition-all duration-300 ease-in focus:scale-103" placeholder="Nome"/>
+                            <input type="text" id="nome" name="nome" className="mt-2 mb-10 w-60 lg:w-100 h-7 rounded-md placeholder:text-white placeholder:ml-2: border-b-2 border-white focus:outline-none transition-all duration-300 ease-in focus:scale-103" placeholder="Nome"/>
                             <span className="absolute right-4 top-1/8">
                                 <FontAwesomeIcon icon={faUser} />
                             </span>
                         </div>
                         <div className="relative w-full">
-                            <input type="email" id="email" name="email" className="mt-2 mb-10 w-60 h-7 rounded-sm placeholder:text-white placeholder:ml-2: border-b-2 border-white focus:outline-none transition-all duration-300 ease-in focus:scale-103" placeholder="Email"/>
+                            <input type="email" id="email" name="email" className="mt-2 mb-10  lg:w-100 w-60 h-7 rounded-md placeholder:text-white placeholder:ml-2: border-b-2 border-white focus:outline-none transition-all duration-300 ease-in focus:scale-103" placeholder="Email"/>
                             <span className="absolute right-4 top-1/8">
                                 <FontAwesomeIcon icon={faEnvelope} />
                             </span>
                         </div>
-                        <div className="flex flex-col gap-3 relative w-71">
-                            <label htmlFor="mensagem" >Envie uma mensagem</label>
-                            <span className="absolute right-13 sm:right-4">
-                                <FontAwesomeIcon icon={faComment} />
-                            </span>
-                            <textarea name="mensagem" id="mensagem" className="bg-white rounded-sm w-full h-50 text-black focus:outline-none transition-all duration-200 ease-in focus:scale-105"></textarea>
+                        <div className="relative w-full mt-6">
+                            <textarea name="mensagem" id="mensagem" className="bg-white rounded-md w-60 sm:w-full h-50 lg:h-72 text-black p-2 focus:outline-none transition-all duration-200 ease-in focus:scale-105"placeholder="Envie uma mensagem"></textarea>
                         </div>
 
                         <div className="flex justify-center items-center">
-                            <button className="w-60 h-15 bg-white text-black font-bold mt-10 rounded-2xl transition-all duration-200 ease-in-out hover:scale-110">Enviar</button>
+                            <button className="w-60 h-15 bg-white text-black font-bold m-5 sm:mt-10 rounded-2xl transition-all duration-200 ease-in-out hover:scale-110">Enviar</button>
                         </div>
 
                     </div>

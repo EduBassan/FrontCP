@@ -10,7 +10,7 @@ export default function Funcionalidades() {
         <h1 className="flex text-3xl lg:text-5xl text-center justify-center items-center font-bold text-white">
           Desenvolvido com carinho
         </h1>
-        <div className="flex flex-wrap flex-row justify-center items-start gap-20">
+        <div className="flex flex-wrap flex-col lg:flex-row justify-center items-start gap-20">
           <div
             className="transition-all ease-in-out duration-500 hover:scale-105 flex flex-col justify-center items-center bg-gradient-to-b lg:bg-gradient-to-r from-[#190dc5] to-[#4f34c9]  rounded-lg h-65 w-60 text-white"
             style={{ boxShadow: "1px 0px 10px 1px rgba(52, 58, 146, 0.500)" }}
@@ -49,7 +49,7 @@ export default function Funcionalidades() {
               <FontAwesomeIcon icon={faMusic} />
             </div>
 
-            <h3 className="w-[80%] text-center text-lg">
+            <h3 className="w-[80%] text-center text-lg ">
               Qualidade de som superior
             </h3>
           </div>

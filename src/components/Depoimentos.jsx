@@ -20,7 +20,9 @@ export default function Depoimentos() {
   ];
 
   return (
-    <div className="overflow-hidden w-auto h-auto flex flex-col justify-center items-center mb-20 lg:mb-0">
+    <div
+    id="depoimentos"
+    className="overflow-hidden w-auto h-auto flex flex-col justify-center items-center mb-20 lg:mb-0">
     <style>{`
       .swiper-button-next,
       .swiper-button-prev {

@@ -21,7 +21,9 @@ export default function Forms() {
   }
 
   return (
-    <div className="bg-[#111111] pr-5 pl-5 pt-5  w-[100%] flex justify-center items-start h-300 lg:h-auto">
+    <div
+    id="forms"
+    className="bg-[#111111] pr-5 pl-5 pt-5  w-[100%] flex justify-center items-start h-300 lg:h-auto">
       <div className="transition-all ease-in-out duration-500 hover:scale-105 flex flex-col pt-10 items-center bg-gradient-to-b lg:bg-gradient-to-r from-[#190dc5] to-[#4f34c9] rounded-lg h-150 w-74 sm:w-150 sm:h-160 lg:w-200 lg:h-200 text-white">
         <div>
           <h1 className="font-bold text-3xl pb-1">Entre em contato</h1>

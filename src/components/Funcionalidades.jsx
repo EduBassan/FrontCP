@@ -5,7 +5,9 @@ import { faHandHoldingHeart } from "@fortawesome/free-solid-svg-icons";
 
 export default function Funcionalidades() {
   return (
-    <div className="bg-[#111111] pr-5 pl-5 pt-5  w-[100%] flex justify-center items-start h-300 lg:h-auto">
+    <div
+    id="funcionalidades"
+    className="bg-[#111111] pr-5 pl-5 pt-5  w-[100%] flex justify-center items-start h-300 lg:h-auto">
       <div className="flex flex-col justify-start items-center h-100 gap-10">
         <h1 className="flex text-3xl lg:text-5xl text-center justify-center items-center font-bold text-white">
           Desenvolvido com carinho

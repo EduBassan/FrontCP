@@ -2,7 +2,6 @@ import { artistas } from "../js/artistas"
 import { numeroSorteado } from "../js/NumeroSorteado"
 
 export default function Hero () {
-console.log(numeroSorteado)
     return (
         <div
         id="hero" 
@@ -107,11 +106,11 @@ console.log(numeroSorteado)
                         </div>
                     </div>
                     <div className=" flex flex-col items-center justify-center h-screen">
-                        <div className="flex flex-row bg-white w-[75%] h-[70%] items-center relative">
+                        <div className="flex flex-row bg-white w-[60%] h-[70%] items-center justify-center relative">
                             <img src={artistas[numeroSorteado].fotoAlbum} alt="foto-do-album-sorteado"
-                            className="hidden sm:flex w-[32%] pl-12"/>
+                            className="hidden sm:flex max-w-[30%] min-w-[25%] ml-5 object-contain"/>
                             <div className="hidden sm:flex flex-col w-[60%] ml-4">
-                                <div className="flex justify-between pr-8 pl-8 text-[20px] border-b-2 border-b-[#D9D9D9]">
+                                <div className="flex justify-between pr-8 pl-8 text-[16px] border-b-2 border-b-[#D9D9D9]">
                                     <div className="flex gap-5 pt-5 pb-5">
                                         <p className="font-extralight">01.</p>
                                         <h1 className="font-extrabold cursor-not-allowed">{artistas[numeroSorteado].nome01}</h1>
@@ -120,7 +119,7 @@ console.log(numeroSorteado)
                                         <p>{artistas[numeroSorteado].duracao01}</p>
                                     </div>
                                 </div>
-                                <div className="flex justify-between pr-8 pl-8 text-[20px] border-b-2 border-b-[#D9D9D9]">
+                                <div className="flex justify-between pr-8 pl-8 text-[16px] border-b-2 border-b-[#D9D9D9]">
                                     <div className="flex gap-5 pt-5 pb-5">
                                         <p className="font-extralight">02.</p>
                                         <h1 className="font-medium cursor-not-allowed">{artistas[numeroSorteado].nome02}</h1>
@@ -129,7 +128,7 @@ console.log(numeroSorteado)
                                         <p>{artistas[numeroSorteado].duracao02}</p>
                                     </div>
                                 </div>
-                                <div className="flex justify-between pr-8 pl-8 text-[20px] border-b-2 border-b-[#D9D9D9]">
+                                <div className="flex justify-between pr-8 pl-8 text-[16px] border-b-2 border-b-[#D9D9D9]">
                                     <div className="flex gap-5 pt-5 pb-5">
                                         <p className="font-extralight">03.</p>
                                         <h1 className="font-medium cursor-not-allowed">{artistas[numeroSorteado].nome03}</h1>

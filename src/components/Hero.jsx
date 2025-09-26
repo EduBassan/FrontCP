@@ -106,7 +106,7 @@ export default function Hero () {
                         </div>
                     </div>
                     <div className=" flex flex-col items-center justify-center h-screen">
-                        <div className="flex flex-row bg-white w-[60%] h-[70%] items-center justify-center relative">
+                        <div className="flex flex-row bg-white w-[60%] h-auto pt-6 pb-6 items-center justify-center relative">
                             <img src={artistas[numeroSorteado].fotoAlbum} alt="foto-do-album-sorteado"
                             className="hidden sm:flex max-w-[30%] min-w-[25%] ml-5 object-contain"/>
                             <div className="hidden sm:flex flex-col w-[60%] ml-4">

@@ -89,27 +89,25 @@ console.log(numeroSorteado)
             <div className="xl:hidden z-20 absolute flex top-0 h-full justify-center w-screen">
                 <div className="flex justify-between flex-col w-[100%] h-auto bottom-2">
                     <div className="flex h-full justify-center">
-                        <div className=" bg-[#111111] w-3/4 relative mt-10">
+                        <div className=" bg-[#111111] w-3/4 mt-10 flex justify-center items-center">
                             <div className="flex flex-col justify-center items-center mt-5 text-white">
                                 <div className="flex flex-col">
                                     <h1 className="text-[42px] italic font-bold" >MELODIA</h1>
                                 </div>
                                 <div className="flex justify-center">
                                     <div className="bg-white text-[#111111] mt-3 w-[60%] p-8 text-center text-[14px] font-light">
-                                        <p>A nova experiência musical começa aqui.  Melodia é o app perfeito para quem vive e respira música — jovens exploradores sonoros, apaixonados por novos ritmos e playlists que refletem sua essência.</p>
+                                        <p>A nova experiência musical começa aqui. Melodia é o app ideal para quem ama descobrir novos ritmos e criar playlists com a sua cara.</p>
                                     </div>
                                 </div>
                                 <div className="flex flex-col w-[60%] h-[50%] justify-center items-center text-center">
-                                    <button className="bg-[#190dc5] w-3/4 p-3 pr-15 pl-15 mt-4 font-semibold cursor-pointer text-[12px]">OUVIR AGORA</button>
-                                    <button className="border-1 border-white w-3/4 p-2 mt-4 text-[13px] font-light cursor-pointer 
-                                    hover:bg-white hover:text-[#111111] hover:transition-all hover:duration-500 mb-2">EXPLORE O SOM</button>
+                                    <button className="bg-[#190dc5] w-3/4 p-3 mt-4 font-semibold cursor-pointer text-[12px] text-center">OUVIR AGORA</button>
                                 </div>
                                 
                             </div>
                         </div>
                     </div>
                     <div className=" flex flex-col items-center justify-center h-screen">
-                        <div className="flex flex-row bg-white w-[90%] h-[70%] items-center relative">
+                        <div className="flex flex-row bg-white w-[75%] h-[70%] items-center relative">
                             <img src={artistas[numeroSorteado].fotoAlbum} alt="foto-do-album-sorteado"
                             className="hidden sm:flex w-[32%] pl-12"/>
                             <div className="hidden sm:flex flex-col w-[60%] ml-4">
@@ -142,18 +140,17 @@ console.log(numeroSorteado)
                                 </div>
                             </div>
                             
-                            <div className=" sm:hidden flex flex-col w-screen justify-center ">
+                            <div className=" sm:hidden flex flex-col w-full justify-center ">
                                 <div className="flex justify-center items-center">
                                     <img src={artistas[numeroSorteado].fotoAlbum} alt="foto-do-album-sorteado"
-                                    className=" w-[40%]"/>
+                                    className=" w-[70%] pt-2 pr-5 pl-5 object-cover h-[80%]"/>
                                 </div>
                                 <div>
-                                    <div className="flex justify-between pr-8 pl-8 text-[16px] mr-20 ml-20">
+                                    <div className="flex justify-center text-[16px]">
                                         <div className="flex gap-5 pt-5">
-                                            <p className="font-extralight">01.</p>
-                                            <h1 className="font-extrabold cursor-not-allowed">{artistas[numeroSorteado].nome01}</h1>
+                                            <h1 className="font-extrabold cursor-not-allowed uppercase">{artistas[numeroSorteado].nome01} - {artistas[numeroSorteado].duracao01}</h1>
                                         </div>
-                                        <div className="pt-5 pb-5 font-normal">
+                                        <div className="hidden sm:flex pt-5 pb-5 font-normal">
                                             <p>{artistas[numeroSorteado].duracao01}</p>
                                         </div>
                                     </div>  

@@ -88,13 +88,13 @@ export default function Hero () {
             <div className="xl:hidden z-20 absolute flex top-0 h-full justify-center items-center w-screen">
                 <div className="flex flex-col w-[100%] h-auto bottom-2 gap-10">
                     <div className="flex h-auto justify-center">
-                        <div className=" bg-[#111111] w-3/4 mt-10 flex justify-center items-center">
-                            <div className="flex flex-col justify-center items-center mt-5 text-white">
+                        <div className=" bg-[#111111] w-3/4 flex justify-center items-center p-5">
+                            <div className="flex flex-col justify-center items-center text-white">
                                 <div className="flex flex-col">
                                     <h1 className="text-[42px] italic font-bold" >MELODIA</h1>
                                 </div>
                                 <div className="flex justify-center">
-                                    <div className="bg-white text-[#111111] mt-3 w-[60%] p-8 text-center text-[14px] font-light">
+                                    <div className="bg-white text-[#111111] mt-3 w-[80%] p-8 text-center text-[14px] font-light">
                                         <p>A nova experiência musical começa aqui. Melodia é o app ideal para quem ama descobrir novos ritmos e criar playlists com a sua cara.</p>
                                     </div>
                                 </div>
@@ -119,7 +119,7 @@ export default function Hero () {
                                 <h1 className="text-[50px] font-extrabold text-white text-center">{artistas[numeroSorteado].nome}</h1>
                             </div>
                         </div>
-                        <div className="flex flex-row bg-white w-[60%] h-auto pt-6 pb-6 items-center justify-center">
+                        <div className="flex flex-row bg-white w-3/4 h-auto pt-6 pb-6 items-center justify-center">
                             <img src={artistas[numeroSorteado].fotoAlbum} alt="foto-do-album-sorteado"
                             className="hidden sm:flex max-w-[30%] min-w-[25%] ml-5 object-contain"/>
                             <div className="hidden sm:flex flex-col w-[60%] ml-4">

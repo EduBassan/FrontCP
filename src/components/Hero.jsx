@@ -86,8 +86,8 @@ export default function Hero () {
 
 
             <div className="xl:hidden z-20 absolute flex top-0 h-full justify-center items-center w-screen">
-                <div className="flex justify-between flex-col w-[100%] h-auto bottom-2">
-                    <div className="flex h-full justify-center">
+                <div className="flex flex-col w-[100%] h-auto bottom-2 gap-10">
+                    <div className="flex h-auto justify-center">
                         <div className=" bg-[#111111] w-3/4 mt-10 flex justify-center items-center">
                             <div className="flex flex-col justify-center items-center mt-5 text-white">
                                 <div className="flex flex-col">
@@ -105,7 +105,7 @@ export default function Hero () {
                             </div>
                         </div>
                     </div>
-                    <div className=" flex flex-col items-center justify-center h-screen">
+                    <div className=" flex flex-col items-center justify-center h-auto">
                         <div className="sm:hidden flex flex-col w-[60%]">
                             <div className="flex justify-start text-white">
                                 <h3 className="bg-[#190dc5] p-1 pr-4 pl-4 mb-[-8px] text-[12px] italic">MÚSICAS DE</h3>

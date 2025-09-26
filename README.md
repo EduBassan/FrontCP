@@ -20,7 +20,7 @@ A **landing page** possui diversas **funcionalidades**, como:
 A Navbar é a barra de navegação da página, ela é **fixa ao topo** da tela e **redireciona** para as demais seções da página, além disso ela é **totalmente responsiva** para todas as telas tanto de computadores, até celulares.
 
 ### HERO
-A seçãO HERO é o que chama a **atenção** da página, apresentando músicas dos mais **populares artistas** do site, além disso conta com uma **playlist** de maiores musicas do artista evidenciado. E uma forma de **explorar** mais o site.
+A seção HERO é o que chama a **atenção** da página, apresentando músicas dos mais **populares artistas** do site, além disso conta com uma **playlist** de maiores musicas do artista evidenciado. E uma forma de **explorar** mais o site.
 
 ### CONHEÇA SUA MELODIA
 A seção CONHEÇA SUA MELODIA contém avaliações de usuários do site utilizando um **swipper**, promovendo confiança na plataforma. Além disso, possui uma apresentação rápida do que a plataforma possui, como **Musicas Infinitas, Recomendações e Playlists Personalizadas** .

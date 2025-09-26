@@ -24,7 +24,7 @@ export default function Forms() {
     <div
     id="forms"
     className="bg-[#111111] pr-5 pl-5 pt-5  w-[100%] flex justify-center items-start h-300 lg:h-auto">
-      <div className="transition-all ease-in-out duration-500 flex flex-col pt-10 items-center bg-gradient-to-b lg:bg-gradient-to-r from-[#190dc5] via-[#150ba7] to-[#190dc5] text-white">
+      <div className="transition-all ease-in-out duration-500 flex flex-col pt-10 items-center bg-gradient-to-b lg:bg-gradient-to-r from-[#190dc5] via-[#150ba7] to-[#190dc5] text-white hover:-translate-y-1.5">
         <div>
           <h1 className="font-bold text-3xl pb-1">Entre em contato</h1>
         </div>

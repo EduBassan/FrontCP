@@ -31,15 +31,11 @@ export default function NavBar () {
                 <button className="cursor-pointer"
                 onClick={
                     () => scroll('apresentacao')
-                    }>APRESENTAÇÃO</button>
+                    }>APRESENTAÇÃO/DEPOIMENTOS</button>
                 <button className="cursor-pointer"
                 onClick={
                     () => scroll('funcionalidades')
                     }>FUNCIONALIDADES</button>
-                <button className="cursor-pointer"
-                onClick={
-                    () => scroll('depoimentos')
-                    }>DEPOIMENTOS</button>
                 <button className="cursor-pointer"
                 onClick={
                     () => scroll('forms')
@@ -68,23 +64,17 @@ export default function NavBar () {
                         setAberto(false); }
                     }>INÍCIO</button>
                 <button className="cursor-pointer border-2 p-2 border-t-black border-b-black border-r-black border-l-black
-                hover:border-b-white hover:transition-all hover:duration-500" 
+                hover:border-b-white hover:transition-all hover:duration-500 text-[14px]" 
                 onClick={
                     () => { scroll('apresentacao'); 
                         setAberto(false); }
-                    }>APRESENTAÇÃO</button>
+                    }>APRESENTAÇÃO/DEPOIMENTOS</button>
                 <button className="cursor-pointer border-2 p-2 border-t-black border-b-black border-r-black border-l-black
                 hover:border-b-white hover:transition-all hover:duration-500" 
                 onClick={
                     () => { scroll('funcionalidades'); 
                         setAberto(false); }
                     }>FUNCIONALIDADES</button>
-                <button className="cursor-pointer border-2 p-2 border-t-black border-b-black border-r-black border-l-black
-                hover:border-b-white hover:transition-all hover:duration-500" 
-                onClick={
-                    () => { scroll('depoimentos'); 
-                        setAberto(false); }
-                    }>DEPOIMENTOS</button>
                 <button className="cursor-pointer border-2 p-2 border-t-black border-b-black border-r-black border-l-black
                 hover:border-b-white hover:transition-all hover:duration-500" 
                 onClick={

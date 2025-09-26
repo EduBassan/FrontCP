@@ -106,6 +106,19 @@ export default function Hero () {
                         </div>
                     </div>
                     <div className=" flex flex-col items-center justify-center h-screen">
+                        <div className="sm:hidden flex flex-col w-[60%]">
+                            <div className="flex justify-start text-white">
+                                <h3 className="bg-[#190dc5] p-1 pr-4 pl-4 mb-[-8px] text-[12px] italic">MÚSICAS DE</h3>
+                            </div>
+                            <div className="flex justify-center">
+                                <h1 className="text-[33px] font-extrabold text-white text-center">{artistas[numeroSorteado].nome}</h1>
+                            </div>
+                        </div>
+                        <div className="xl:hidden hidden sm:flex justify-center w-[60%]">
+                            <div className="flex justify-center">
+                                <h1 className="text-[50px] font-extrabold text-white text-center">{artistas[numeroSorteado].nome}</h1>
+                            </div>
+                        </div>
                         <div className="flex flex-row bg-white w-[60%] h-auto pt-6 pb-6 items-center justify-center">
                             <img src={artistas[numeroSorteado].fotoAlbum} alt="foto-do-album-sorteado"
                             className="hidden sm:flex max-w-[30%] min-w-[25%] ml-5 object-contain"/>

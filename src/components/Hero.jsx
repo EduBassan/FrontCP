@@ -85,7 +85,7 @@ export default function Hero () {
 
 
 
-            <div className="xl:hidden z-20 absolute flex top-0 h-full justify-center w-screen">
+            <div className="xl:hidden z-20 absolute flex top-0 h-full justify-center items-center w-screen">
                 <div className="flex justify-between flex-col w-[100%] h-auto bottom-2">
                     <div className="flex h-full justify-center">
                         <div className=" bg-[#111111] w-3/4 mt-10 flex justify-center items-center">

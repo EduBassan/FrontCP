@@ -1,7 +1,7 @@
 export let artistas = [
     {
         nome: "ED SHEERAN",
-        fotoFundo: "",
+        fotoFundo: "./src/assets/EdBack.jpg",
         fotoAlbum: "https://i.pinimg.com/736x/9a/22/fb/9a22fbaa1c35182063a67cae7913175c.jpg",
         nome01: "Perfect",
         duracao01: "04:23",
@@ -12,7 +12,7 @@ export let artistas = [
     },
     {
         nome: "TAYLOR SWIFT",
-        fotoFundo: "",
+        fotoFundo: "./src/assets/TaylorBack.jpg",
         fotoAlbum: "https://i.pinimg.com/originals/68/40/d0/6840d0fdf5e62e492fb6ef2d8341399a.png",
         nome01: "Shake It Off",
         duracao01: "03:39",
@@ -23,7 +23,7 @@ export let artistas = [
     },
     {
         nome: "THE WEEKND",
-        fotoFundo: "",
+        fotoFundo: "./src/assets/TheBack.jpg",
         fotoAlbum: "https://i.redd.it/u9yfd63sy0141.jpg",
         nome01: "Blinding Lights",
         duracao01: "03:20",

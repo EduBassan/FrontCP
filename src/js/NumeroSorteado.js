@@ -1,0 +1,1 @@
+export const numeroSorteado = parseInt(Math.random() * 3)

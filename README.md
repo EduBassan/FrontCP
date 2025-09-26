@@ -38,6 +38,7 @@ O rodapé do site contém as principais informações do **MELODIA**.
 - TAILWIND
 - GITHUB
 - FONTAWESOME
+- VITE
 
 ### INTEGRANTES DO GRUPO
 - Eduardo Santiago Bassan — **RM: 561474**

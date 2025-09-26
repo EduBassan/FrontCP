@@ -4,7 +4,8 @@ import { SiTailwindcss, SiFontawesome, SiGooglefonts } from "react-icons/si";
 
 export default function Footer() {
   return (
-    <footer className="bg-gray-900 text-gray-300 py-10">
+    <footer className="bg-[#190dc5] text-gray-300 py-10">
+
       <div className="container mx-auto px-4 grid grid-cols-1 md:grid-cols-3 gap-8">
 
         <div>

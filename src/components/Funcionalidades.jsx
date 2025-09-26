@@ -9,15 +9,17 @@ export default function Funcionalidades() {
   return (
     <div
     id="funcionalidades"
-    className="bg-[#111111] pr-5 pl-5 pt-5 grid-cols-1 lg:grid-col-2 w-[100%] flex flex-wrap justify-center items-start h-350 lg:h-200">
-      <h1 className="flex text-3xl mb-10 lg:text-5xl text-center justify-center items-center font-bold text-white w-full">
+    className="grid bg-[#111111] w-[100%] grid-cols-1 lg:grid-cols-2 gap-x-30 gap-y-10 h-auto">
+      <div className="w-full flex items-center justify-center col-span-1 lg:col-span-2 mt-10">
+      <h1 className="flex text-3xl lg:text-5xl text-center justify-center items-center font-bold text-white w-full">
           Sobre nós
         </h1>
-      <div className="flex flex-col justify-start items-center h-120 gap-5">
-        <h4 className="flex text-2xl lg:text-3xl text-center justify-center items-start font-bold text-white">
+        </div>
+      <div className="flex flex-col justify-center items-center lg:items-end h-auto col-span-1 gap-5">
+        <h4 className="flex text-2xl lg:text-3xl w-full lg:w-120 justify-center items-start font-bold text-white">
           Qual nosso diferencial?
         </h4>
-        <div className="flex flex-wrap flex-col justify-center items-start gap-5 h-170">
+        <div className="flex flex-nowrap lg:flex-wrap flex-col justify-start items-start gap-5 h-300 lg:h-200">
           <div
             className="transition-all ease-in-out duration-500 hover:-translate-x-4 hover:-translate-y-2  flex flex-col justify-center items-center bg-gradient-to-b lg:bg-gradient-to-r from-[#190dc5] to-[#2313ff] h-65 w-60 text-white"
             style={{ boxShadow: "1px 0px 10px 1px rgba(52, 58, 146, 0.500)" }}
@@ -75,8 +77,8 @@ export default function Funcionalidades() {
           </div>
         </div>
       </div>
-      <div className="flex flex-col justify-start items-center h-full ml-20">
-        <h4 className="flex text-2xl lg:text-3xl text-center justify-center items-start font-bold text-white">
+      <div className="flex flex-col justify-start items-start h-auto mb-20">
+        <h4 className="w-full flex lg:w-108 text-3xl text-center justify-center items-center font-bold text-white mb-5">
           Se interessou?
         </h4>
         <Forms/>

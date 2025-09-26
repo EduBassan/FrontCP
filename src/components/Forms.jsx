@@ -23,15 +23,15 @@ export default function Forms() {
   return (
     <div
     id="forms"
-    className="bg-[#111111] pr-5 pl-5 pt-5  w-[100%] flex justify-center items-start h-300 lg:h-auto">
-      <div className="transition-all ease-in-out duration-500 flex flex-col pt-10 items-center bg-gradient-to-b lg:bg-gradient-to-r from-[#190dc5] via-[#150ba7] to-[#190dc5] text-white hover:-translate-y-1.5">
+    className="bg-[#111111] w-full flex justify-center lg:justify-start items-start h-auto">
+      <div className="p-1 lg:p-3 transition-all ease-in-out duration-500 flex flex-wrap flex-col pt-10 items-center bg-gradient-to-b lg:bg-gradient-to-r from-[#190dc5] via-[#150ba7] to-[#190dc5] text-white hover:-translate-y-1.5">
         <div>
           <h1 className="font-bold text-3xl pb-1">Entre em contato</h1>
         </div>
         <div className="grid grid-cols-1 m-6">
           <form onSubmit={enviarForm}>
-            <div className="relative w-auto h-auto">
-              <input type="text" id="nome" name="nome" className="mt-2 mb-10 w-60 lg:w-100 h-7 placeholder:text-white border-b-2 border-white focus:outline-none transition-all duration-300 ease-in focus:scale-103" placeholder="Nome"
+            <div className="relative w-full h-auto">
+              <input type="text" id="nome" name="nome" className="mt-2 mb-10 w-90 h-7 placeholder:text-white border-b-2 border-white focus:outline-none transition-all duration-300 ease-in focus:scale-103" placeholder="Nome"
                 value={nome}
                 onChange={(e) => setNome(e.target.value)}
               />
@@ -41,7 +41,7 @@ export default function Forms() {
             </div>
 
             <div className="relative w-full">
-              <input type="email" id="email" name="email" className="mt-2 mb-5 lg:w-100 w-60 h-7 placeholder:text-white border-b-2 border-white focus:outline-none transition-all duration-300 ease-in focus:scale-103" placeholder="Email"
+              <input type="email" id="email" name="email" className="mt-2 mb-5 w-90 h-7 placeholder:text-white border-b-2 border-white focus:outline-none transition-all duration-300 ease-in focus:scale-103" placeholder="Email"
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
               />
@@ -51,14 +51,14 @@ export default function Forms() {
             </div>
 
             <div className="relative w-full mt-6">
-              <textarea name="mensagem" id="mensagem" className="bg-white w-60 sm:w-full h-20 lg:h-40 mb-5 text-black p-2 focus:outline-none transition-all duration-200 ease-in focus:scale-105" placeholder="Envie uma mensagem"
+              <textarea name="mensagem" id="mensagem" className="bg-white w-full h-40 mb-5 text-black p-2 focus:outline-none transition-all duration-200 ease-in focus:scale-105" placeholder="Envie uma mensagem"
                 value={mensagem}
                 onChange={(e) => setMensagem(e.target.value)}
               ></textarea>
             </div>
 
             <div className="flex justify-center items-center">
-              <button type="submit" className="font-bold w-40 h-10 mb-5 border-2 text-white bold sm:mt-4 transition-all duration-200 ease-in-out hover:bg-white hover:text-blue-950">
+              <button type="submit" className="font-bold w-40 h-10 mb-5 border-2 text-white bold mt-4 transition-all duration-200 ease-in-out hover:bg-white hover:text-blue-950">
                 Enviar
               </button>
             </div>

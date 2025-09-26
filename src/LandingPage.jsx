@@ -8,12 +8,11 @@ import NavBar from "./components/NavBar";
 
 export default function LandingPage () {
     return (
-        <div className="bg-gradient-to-b from-[#190dc5] to-[#7434c9] h-full overflow-hidden w-full">
+        <div className="h-full overflow-hidden w-full">
             <NavBar/>
             <Hero/>
             <Apresentacao/>
             <Funcionalidades/>
-            <Forms/>
             <Footer/>
         </div>
     )

@@ -1,1 +1,1 @@
-export const numeroSorteado = parseInt(Math.random() * 3)
+export const numeroSorteado = parseInt(Math.random() * 7)
